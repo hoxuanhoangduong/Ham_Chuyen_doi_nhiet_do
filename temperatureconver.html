@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <script src="converter.js"></script>
+</head>
+<body>
+<div id="title">
+    <div id="header">
+        <h1>Temperature Converter</h1>
+        <p>Type a value in the Fahrenheit field to convert the value to Celcius</p>
+    </div>
+    <div>
+        <div>
+            <label>Fahrenheit</label>
+            <input type="number" placeholder="Frarenheit" id="input" oninput="temperatureCoverter(this.value)"
+                   onchange="temperatureCoverter(this.value)">
+            <label>Celcius</label>
+            <span id="output"></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
